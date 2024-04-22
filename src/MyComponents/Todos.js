@@ -57,7 +57,7 @@ export const Todos = () => {
     }, [editTodo]);
 
     return (
-        <div className="container" style={{ minHeight: "100%" }}>
+        <div className="container my-3">
             <AddTodo
                 addTodo={addTodo}
                 defaultTitle={editTodo ? editTodo.title : ""}
